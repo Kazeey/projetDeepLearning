@@ -1,6 +1,4 @@
-import tensorflow as tf
-import numpy as np
+import learnings.breastCancer as bc
 
-m1 = tf.ones([500, 500]) * 0.5
-
-print(m1)
+if __name__ == "__main__":
+    bc.breast_cancer_analysis()
